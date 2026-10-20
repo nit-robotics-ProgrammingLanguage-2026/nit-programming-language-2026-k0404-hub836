@@ -2,9 +2,10 @@
 
 int main(void) {
     /* 課題0404: 入力されたintのデータxに+100したx+100の逆数を，doubleとして計算し，小数点以下15桁として表示するプログラムを書け．*/
-    
-
-
-    
+int x;
+double y;   
+scanf("%d",&x);
+y=(double)x+100;
+printf("%.15fです。\n", y);
     return 0;
 }
